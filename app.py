@@ -3,6 +3,8 @@ import onnxruntime as ort
 import numpy as np
 from PIL import Image
 
+st.write("App started")
+
 st.set_page_config(page_title="Deteksi Paru-Paru", layout="centered")
 st.title("Deteksi Penyakit Paru-Paru (X-ray)")
 st.write("Upload gambar X-ray untuk mendapatkan prediksi.")
