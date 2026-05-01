@@ -12,6 +12,9 @@ st.write("Upload gambar X-ray untuk mendapatkan prediksi.")
 # =========================
 @st.cache_resource
 def load_model():
+    import os
+    st.write("File exists:", os.path.exists("model_parurasio801010.onnx"))
+    st.write("Files in directory:", os.listdir("."))
     session = ort.InferenceSession("model_parurasio801010.onnx")
     return session
 
