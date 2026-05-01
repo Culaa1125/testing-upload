@@ -1,4 +1,4 @@
-streamlit==1.32.0
+streamlit==1.43.2
 onnxruntime==1.25.1
 numpy==2.2.5
 Pillow==11.2.1
